@@ -70,6 +70,7 @@ gulp
 
 # Use any process manager to start your services
 4. pm2 start dist/index.js
+```
 
 In production you need to make sure your server is always up so you should ideally use any of the process manager recommended [here](http://expressjs.com/en/advanced/pm.html).
 We recommend [pm2](http://pm2.keymetrics.io/) as it has several useful features like it can be configured to auto-start your services if system is rebooted.
