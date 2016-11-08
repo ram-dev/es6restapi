@@ -21,6 +21,10 @@ Start server:
 # Start server
 npm start
 
+# Selectively set DEBUG env var to get logs
+DEBUG=es6-rest-api:* npm start
+```
+Refer [debug](https://www.npmjs.com/package/debug) to know how to selectively turn on logs.
 
 Tests:
 ```sh
